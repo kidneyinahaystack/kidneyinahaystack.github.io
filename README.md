@@ -68,6 +68,11 @@ and use the CMS.
 
 **Enjoy!**
 
+## Updating
+```bash
+bundle update
+```
+
 ## Bug reports, feature requests, etc
 
 We love feedback, contributions, better documentation, tutorials, general comments,
