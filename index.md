@@ -1,5 +1,3 @@
-![test alt](/img/uploads/paper.png "test title")
-
 My name is Deborah Allen.  I have end stage renal disease due to a rare disease that’s attacking my kidneys.  I’ve been on dialysis every night since February, 2019.
 
 If you would like to be tested to donate go to: [nmlivingdonor.org](nmlivingdonor.org) and fill out the online questionnaire.
