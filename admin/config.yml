@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: kidneyinahaystack/kidneyinahaystack-web # your GitHub username and repository name, separated by a slash
-  branch: gh-pages # Branch to update (master by default)
+  repo: kidneyinahaystack/kidneyinahaystack.github.io # your GitHub username and repository name, separated by a slash
+  branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
