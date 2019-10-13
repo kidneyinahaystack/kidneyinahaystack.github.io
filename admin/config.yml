@@ -12,6 +12,8 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
@@ -19,3 +21,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Categories", name: "categories", widget: "string", required: false}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Home Page'
+        name: 'index'
+        file: 'index.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Layout', name: 'title', widget: 'hidden', default: 'about' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
