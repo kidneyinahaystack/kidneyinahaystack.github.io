@@ -24,6 +24,10 @@ url: "https://kidneyinahaystack.com" # the base hostname & protocol for your sit
 # Build settings
 theme: minima
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # minima theme settings
 show_excerpts: false # set to true to show excerpts on the homepage
 
